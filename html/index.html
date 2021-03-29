@@ -1,197 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html clas="page" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <a>
+<body clas="page-body">
+    <header class="main-header ">
+        <nav class="main-navigation">
+            <a class="main-header-logo">
                 <img src="../img/nerds-logo.svg" width="159" height="65" alt="Логотип сайта Nerds">;
             </a>
-            <ul>
-                <li>
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
                     <a href="blank.html">Студия</a>
                 </li>
-                <li>
+                <li class="site-navigation-item">
                     <a href="blank.html">Клиенты</a>
                 </li>
-                <li>
+                <li class="site-navigation-item">
                     <a href="catalog.html">Магазин</a>
                 </li>
-                <li>
+                <li class="site-navigation-item">
                     <a href="blank.html">Контакты</a>
                 </li>
             </ul>
-            <a href="blank.html">Корзина</a>
+                <a class="basket-link" href="blank.html">Корзина</a>
         </nav>
     </header>
-    <main>
-        <h1>Долго, дорого, скрупулезно.</h1>
-        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <a href="blank.html">Узнать больше</a>
-        <img src="../img/nerds-index-slide1%201.png" width="760" height="431" alt="">
-        <section>
+
+    <main class="wrapper">
+        <h1 class="wrapper-title">Долго, дорого, скрупулезно.</h1>
+        <p class="wrapper-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+        <a class="wrapper-button" href="blank.html">Узнать больше</a>
+        <p class="wrapper-image">
+            <img src="../img/nerds-index-slide1%201.png" width="760" height="431" alt="">
+        </p>
+        <section class="feature">
             <h2>Преимущества</h2>
-            <ul>
-                <li>
-                    <!-- Вомзонжо здесь не нужно оборачивать Картинку и Заголовок в ссылку <a href> + кнопка "Заказать" это ссылка -->
-                    <a href="blank.html">
-                        <p>
-                            <img src="../img/illustration-1%201.png" width="300" height="146" alt="Картинка веб-сайт">
-                        </p>
-                        <h2>Веб-сайты</h2>
-                    </a>
-                    <p>Математически выверенный дизайн  для вашего сайта или мобильного приложения.</p>
-                    <button type="button">Заказать</button>
+            <ul class="feature-list">
+                <li class="feature-item">
+                    <p>
+                        <img src="../img/illustration-1%201.png" width="300" height="146" alt="Картинка веб-сайт">
+                    </p>
+                    <h2>Веб-сайты</h2>
+                    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <a class="feature-item-button" href="blank.html">Заказать</a>
                 </li>
-                <!-- Вомзонжо здесь не нужно оборачивать Картинку и Заголовок в ссылку <a href> + кнопка "Заказать" это ссылка -->
-                <li>
-                    <a href="blank.html">
-                        <p>
-                            <img src="../img/illustration-2%201.png" width="300" height="146" alt="Картинка приложения">
-                        </p>
-                        <h2>Приложения</h2>
-                    </a>
-                    <p>Покорите топ-10 приложений  в AppStore и Google Play</p>
-                    <button type="button">Заказать</button>
+
+                <li class="feature-item">
+                    <p>
+                        <img src="../img/illustration-2%201.png" width="300" height="146" alt="Картинка приложения">
+                    </p>
+                    <h2>Приложения</h2>
+                    <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+                    <a class="feature-item-button" href="blank.html">Заказать</a>
                 </li>
-                <!-- Вомзонжо здесь не нужно оборачивать Картинку и Заголовок в ссылку <a href> + кнопка "Заказать" это ссылка -->
-                <li>
-                    <a href="blank.html">
-                        <p>
-                            <img src="../img/illustration-3%201.png" width="300" height="146" alt="Картинка презентация">
-                        </p>
-                        <h2>Презентации</h2>
-                    </a>
-                    <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
-                    <button type="button">Заказать</button>
+
+                <li class="feature-item">
+                    <p>
+                        <img src="../img/illustration-3%201.png" width="300" height="146" alt="Картинка презентация">
+                    </p>
+                    <h2>Презентации</h2>
+                    <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+                    <a class="feature-item-button" href="blank.html">Заказать</a>
                 </li>
             </ul>
         </section>
-<!-- ola-->
-        <section>
+
+        <section class="news">
             <h2>О нас</h2>
 
-            <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+            <p class="news-subtitle">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
 
-            <p>Исповедуем принципы минимализма и чистоты. 
-            Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+            <p class="news-text">Исповедуем принципы минимализма и чистоты.
+            Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 
             <p>Выполняем заказы на разработку:</p>
-            <ul>
-                <li>
+            <ul class="news-list">
+                <li class="news-item">
                     Веб сайтов любой сложности
                 </li>
-                <li>
+                <li class="news-item">
                     Мобильных приложений для IOS и Android
                 </li>
-                <li>
+                <li class="news-item">
                     Слайдшоу и видео для корпоративных презентаций
                 </li>
             </ul>
         </section>
 
-        <section>
+        <section class="statistics">
             <h2>Наша статистика</h2>
-            <p>
+            <p class="statistics-content">
                 <img src="../img/nerds-illustration%201.png" alt="">
             </p>
-            <p>
+            <p class="statistics-text">
                 с 2004 года Любим точность во всем:
             </p>
-            <ul>
-                <li>
-                    <p>146%</p>
-                    <p>Уровень самоотдачи</p>
+            <ul class="statistics-list">
+                <li class="statistics-item">
+                    <p class="statistics-item-subtitle">146%</p>
+                    <p class="statistics-item-text">Уровень самоотдачи</p>
                 </li>
 
-                <li>
-                    <p>100%</p>
-                    <p>Соблюдение сроков</p>
+                <li class="statistics-item">
+                    <p class="statistics-item-subtitle">100%</p>
+                    <p class="statistics-item-text">Соблюдение сроков</p>
                 </li>
 
-                <li>
-                    <p>50%</p>
-                    <p>Минимальная предоплата</p>
+                <li class="statistics-item">
+                    <p class="statistics-item-subtitle">50%</p>
+                    <p class="statistics-item-text">Минимальная предоплата</p>
                 </li>
             </ul>
         </section>
 
-        <section>
+        <section class="logo">
             <h2>Логотипы</h2>
-            <ul>
-                <li>
+            <ul class="logo-list">
+                <li class="logo-item">
                     <img src="../img/Group%205.png" width="199" height="68" alt="Логотип HTML-Academy">
                 </li>
-                <li>
+                <li class="logo-item">
                     <img src="../img/logo-2%201.png" width="199" height="68" alt="Логотип Барбершоп Бородинский">
                 </li>
-                <li>
+                <li class="logo-item">
                     <img src="../img/logo-3%201.png" width="199" height="68" alt="Логотип Очков Pink">
                 </li>
-                <li>
+                <li class="logo-item">
                     <img src="../img/logo-4%201.png" width="199" height="68" alt="Логотип Mishka">
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
-        <section>
+    <footer class="footer">
+        <section class="contacts">
             <h2>NЁRDS DESIGN STUDIO</h2>
-            <p>191186, Санкт-Петербург,<br>
+            <p class="contacts-adress">191186, Санкт-Петербург,<br>
             ул. Б. Конюшенная, д. 19/8<br></p>
-            <p>тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-            <a href="blank.html">Напишите нам</a>
+            <p class="contacts-phone">тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+            <a class="contacts-link" href="blank.html">Напишите нам</a>
             <!-- Form -->
-
-
         </section>
-<!--e o  -->
-        <section>
+
+        <section class="icons">
             <h2>Соц.сети</h2>
-            <ul>
-                <li>
+            <ul class="icons-list">
+                <li class="icons-item">
                     <a href="#">Vkontakte</a>
                 </li>
-                <li>
+                <li class="icons-item">
                     <a href="#">Facebook</a>
                 </li>
-                <li>
+                <li class="icons-item">
                     <a href="#">Instagram</a>
                 </li>
             </ul>
         </section>
 
-        <section>
-        <h2>Акция</h2>
-        <p>Давайте дружить, это выгодно!</p>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+        <section class="bottombar">
+            <h2 class="bottombar-title">Акция</h2>
+            <p class="bottombar-text">Давайте дружить, это выгодно!</p>
+            <p class="bottombar-advantages">Скидка 10% для друзей из социальных сетей.</p>
         </section>
     </footer>
 
     <!-- Popup -->
-    <section>
+    <section class="popup">
         <h2>Напишите нам</h2>
-        <form action="https://echo.htmlacademy.ru" method="post">
-            <label for="user-id">Ваше имя:</label>
-            <input type="text" id="user-id" placeholder="Имя Фамилия">
+        <form class="popup-form" action="https://echo.htmlacademy.ru" method="post">
+            <label class="popup-form-label-name" for="user-id">Ваше имя:</label>
+            <input class="popup-form-input-name" type="text" id="user-id" placeholder="Имя Фамилия">
 
-            <label for="email-id">Ваш email:</label>
-            <input type="email" id="email-id" placeholder="email@example.com" name="mail">
-            <p>
-                <label for="textarea-id">Текст письма</label>
-                <textarea id="textarea-id"></textarea>
+            <label class="popup-form-label-email" for="email-id">Ваш email:</label>
+            <input class="popup-form-input-email" type="email" id="email-id" placeholder="email@example.com" name="mail">
+            <p class="letter">
+                <label class="letter-label-text" for="textarea-id">Текст письма</label>
+                <textarea class="letter-textarea" id="textarea-id"></textarea>
             </p>
-            <p>
+            <p class="popup-button">
                 <button type="submit">Отправить</button>
             </p>
         </form>
-        <button type="button">Закрыть</button>
+        <button class="popup-button-close" type="button">Закрыть</button>
     </section>
 </body>
 </html>
