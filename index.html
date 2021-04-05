@@ -2,73 +2,82 @@
 <html clas="page" lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body clas="page-body">
-    <header class="main-header ">
-        <nav class="main-navigation">
-            <a class="main-header-logo">
-                <img src="../img/nerds-logo.svg" width="159" height="65" alt="Логотип сайта Nerds">;
-            </a>
-            <ul class="site-navigation">
-                <li class="site-navigation-item">
-                    <a href="blank.html">Студия</a>
-                </li>
-                <li class="site-navigation-item">
-                    <a href="blank.html">Клиенты</a>
-                </li>
-                <li class="site-navigation-item">
-                    <a href="catalog.html">Магазин</a>
-                </li>
-                <li class="site-navigation-item">
-                    <a href="blank.html">Контакты</a>
-                </li>
-            </ul>
-                <a class="basket-link" href="blank.html">Корзина</a>
-        </nav>
-    </header>
+<body class="page-body">
+    <div class="background-header">
+        <header class="main-header ">
+            <nav class="main-navigation">
+                <a class="main-header-logo">
+                    <img src="img/nerds-logo.svg" width="159" height="65" alt="Логотип сайта Nerds">;
+                </a>
+                <ul class="site-navigation">
+                    <li class="site-navigation-item">
+                        <a href="blank.html">Студия</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="blank.html">Клиенты</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="catalog.html">Магазин</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="blank.html">Контакты</a>
+                    </li>
+                </ul>
+                <div class="basket-navigation">
+                    <a class="basket-link" href="blank.html">Корзина</a>
+                </div>
+            </nav>
+        </header>
 
-    <main class="wrapper">
-        <h1 class="wrapper-title">Долго, дорого, скрупулезно.</h1>
-        <p class="wrapper-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <a class="wrapper-button" href="blank.html">Узнать больше</a>
-        <p class="wrapper-image">
-            <img src="../img/nerds-index-slide1%201.png" width="760" height="431" alt="">
-        </p>
+        <main class="wrapper">
+            <h1 class="wrapper-title">Долго, дорого, скрупулезно.</h1>
+            <p class="wrapper-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <a class="wrapper-button" href="blank.html">Узнать больше</a>
+            <p class="wrapper-image">
+                <img src="img/nerds-index-slide1%201.png" width="760" height="431" alt="">
+            </p>
+    </div>
         <section class="feature">
             <h2>Преимущества</h2>
             <ul class="feature-list">
                 <li class="feature-item">
                     <p>
-                        <img src="../img/illustration-1%201.png" width="300" height="146" alt="Картинка веб-сайт">
+                        <img src="img/illustration-1%201.png" width="300" height="146" alt="Картинка веб-сайт">
                     </p>
-                    <h2>Веб-сайты</h2>
-                    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-                    <a class="feature-item-button" href="blank.html">Заказать</a>
+                    <h2 class="feature-subtitle">Веб-сайты</h2>
+                    <p class="feature-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <a class="feature-button" href="blank.html">Заказать</a>
                 </li>
 
                 <li class="feature-item">
                     <p>
-                        <img src="../img/illustration-2%201.png" width="300" height="146" alt="Картинка приложения">
+                        <img src="img/illustration-2%201.png" width="300" height="146" alt="Картинка приложения">
                     </p>
-                    <h2>Приложения</h2>
-                    <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-                    <a class="feature-item-button" href="blank.html">Заказать</a>
+                    <h2 class="feature-subtitle">Приложения</h2>
+                    <p class="feature-text">Покорите топ-10 приложений в AppStore и Google Play</p>
+                    <a class="feature-button button-change-color" href="blank.html">Заказать</a>
                 </li>
 
                 <li class="feature-item">
                     <p>
-                        <img src="../img/illustration-3%201.png" width="300" height="146" alt="Картинка презентация">
+                        <img src="img/illustration-3%201.png" width="300" height="146" alt="Картинка презентация">
                     </p>
-                    <h2>Презентации</h2>
-                    <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-                    <a class="feature-item-button" href="blank.html">Заказать</a>
+                    <h2 class="feature-subtitle">Презентации</h2>
+                    <p class="feature-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+                    <a class="feature-button button-change-second" href="blank.html">Заказать</a>
                 </li>
             </ul>
         </section>
 
+    <div class="index-columns">
         <section class="news">
             <h2>О нас</h2>
 
@@ -77,7 +86,7 @@
             <p class="news-text">Исповедуем принципы минимализма и чистоты.
             Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 
-            <p>Выполняем заказы на разработку:</p>
+            <p class="subtitle-news-list">Выполняем заказы на разработку:</p>
             <ul class="news-list">
                 <li class="news-item">
                     Веб сайтов любой сложности
@@ -94,7 +103,7 @@
         <section class="statistics">
             <h2>Наша статистика</h2>
             <p class="statistics-content">
-                <img src="../img/nerds-illustration%201.png" alt="">
+                <img src="img/nerds-illustration%201.png" alt="">
             </p>
             <p class="statistics-text">
                 с 2004 года Любим точность во всем:
@@ -116,27 +125,30 @@
                 </li>
             </ul>
         </section>
+    </div>
 
         <section class="logo">
             <h2>Логотипы</h2>
             <ul class="logo-list">
-                <li class="logo-item">
-                    <img src="../img/Group%205.png" width="199" height="68" alt="Логотип HTML-Academy">
+                <li class="logo-item-first">
+                    <a href="https://htmlacademy.ru/intensive/htmlcss">
+                        <img src="img/Group%205.png" width="199" height="68" alt="Логотип HTML-Academy">
+                    </a>
                 </li>
-                <li class="logo-item">
-                    <img src="../img/logo-2%201.png" width="199" height="68" alt="Логотип Барбершоп Бородинский">
+                <li class="logo-item-second">
+                    <img src="img/logo-2%201.png" width="209" height="90" alt="Логотип Барбершоп Бородинский">
                 </li>
-                <li class="logo-item">
-                    <img src="../img/logo-3%201.png" width="199" height="68" alt="Логотип Очков Pink">
+                <li class="logo-item-thierst">
+                    <img src="img/logo-3%201.png" width="185" height="52" alt="Логотип Очков Pink">
                 </li>
-                <li class="logo-item">
-                    <img src="../img/logo-4%201.png" width="199" height="68" alt="Логотип Mishka">
+                <li class="logo-item-fourst">
+                    <img src="img/logo-4%201.png" width="173" height="84" alt="Логотип Mishka">
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="main-footer">
         <section class="contacts">
             <h2>NЁRDS DESIGN STUDIO</h2>
             <p class="contacts-adress">191186, Санкт-Петербург,<br>
@@ -162,8 +174,8 @@
         </section>
 
         <section class="bottombar">
-            <h2 class="bottombar-title">Акция</h2>
-            <p class="bottombar-text">Давайте дружить, это выгодно!</p>
+            <h2>Акция</h2>
+            <p class="bottombar-title">Давайте дружить, это выгодно!</p>
             <p class="bottombar-advantages">Скидка 10% для друзей из социальных сетей.</p>
         </section>
     </footer>
